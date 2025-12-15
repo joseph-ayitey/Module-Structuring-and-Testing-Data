@@ -15,6 +15,10 @@ function convertToPercentage(decimalNumber) {
 console.log(decimalNumber);
 
 // =============> write your explanation here
+/*The function parameter 'decimalNumber' is already a variable. Declaring const decimalNumber = 0.5 inside the function attempts to redeclare the same identifier in the same scope, which JavaScript does not allow. This causes a syntax error before the code runs*/
 
 // Finally, correct the code to fix the problem
 // =============> write your new code here
+
+
+
